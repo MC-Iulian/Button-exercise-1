@@ -1,0 +1,27 @@
+.violet-button {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    color: #fff;
+    background-color: #ff5252;
+    border: 2px solid black;
+    border-radius: 10px;
+    box-shadow: 5px 5px 0px black;
+    transition: all 0.3s ease;
+}
+
+.violet-button:hover{
+    background-color: #fff;
+    color: #ff5252;
+    border: 2px solid #ff5252;
+    box-shadow: 5px 5px 0px #ff5252;
+}
+
+.violet-button:active{
+    background-color: #602eeb;
+    box-shadow: none;
+    transform: translateY(4px);
+}
